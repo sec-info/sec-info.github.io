@@ -45,7 +45,7 @@ const resources = [
     title: "SSL/TLS Best Practices",
     category: "Tools",
     description: "Best practices for configuring SSL and TLS for secure communications.",
-    url: "https://www.sslshopper.com/ssl-tls-best-practices.html"
+    url: "https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html"
   },
   {
     title: "Password Security Guidelines",
