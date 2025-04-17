@@ -106,6 +106,36 @@ const resources = [
   "category": "Bug Bounty Hunting",
   "description": "A free and open platform for reporting vulnerabilities, with a focus on web applications. Allows security researchers to report vulnerabilities without prior authorization.",
   "url": "https://www.openbugbounty.org/"
+  },
+  {
+    "title": "CTFtime",
+    "category": "CTFs",
+    "description": "A central hub for tracking upcoming and ongoing CTF events, team rankings, and competition results.",
+    "url": "https://ctftime.org/"
+  },
+  {
+    "title": "PicoCTF",
+    "category": "CTFs",
+    "description": "A beginner-friendly CTF developed by security experts at Carnegie Mellon. Great for students and newcomers.",
+    "url": "https://picoctf.org/"
+  },
+  {
+    "title": "Hack The Box CTFs",
+    "category": "CTFs",
+    "description": "Offers regular CTF challenges and events, suitable for intermediate to advanced players.",
+    "url": "https://www.hackthebox.com/events"
+  },
+  {
+    "title": "OverTheWire: Wargames",
+    "category": "CTFs",
+    "description": "A set of interactive CTF-like wargames designed to teach Linux, networking, and hacking basics.",
+    "url": "https://overthewire.org/wargames/"
+  },
+  {
+    "title": "TryHackMe CTFs",
+    "category": "CTFs",
+    "description": "Hands-on labs and CTF challenges for beginners to advanced users, covering real-world cybersecurity skills.",
+    "url": "https://tryhackme.com/"
   }
 ];
 
