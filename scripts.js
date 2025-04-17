@@ -64,6 +64,12 @@ const resources = [
   "category": "Vulnerability Databases",
   "description": "The official source for all CVE records, maintained by MITRE. Includes identifiers, details, and references.",
   "url": "https://cve.mitre.org/"
+  },
+  {
+  "title": "NVD (National Vulnerability Database)",
+  "category": "Vulnerability Databases",
+  "description": "A U.S. government repository of standards-based vulnerability management data, including CVEs and severity scores.",
+  "url": "https://nvd.nist.gov/"
   }
 ];
 
