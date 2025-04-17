@@ -148,6 +148,36 @@ const resources = [
     "category": "Books",
     "description": "A hands-on guide with red teaming strategies, tools, and walkthroughs mimicking real-world scenarios.",
     "url": "https://a.co/d/25rwQDf"
+  },
+  {
+  title: "CompTIA Security+",
+  category: "Certifications",
+  description: "An entry-level certification that covers foundational cybersecurity skills and is widely recognized across the industry.",
+  url: "https://www.comptia.org/certifications/security"
+  },
+  {
+  title: "Certified Ethical Hacker (CEH)",
+  category: "Certifications",
+  description: "Offered by EC-Council, this certification teaches ethical hacking techniques and tools to assess the security posture of systems.",
+  url: "https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/"
+  },
+  {
+  title: "CISSP (Certified Information Systems Security Professional)",
+  category: "Certifications",
+  description: "A globally recognized certification for experienced security practitioners, managers, and executives.",
+  url: "https://www.isc2.org/Certifications/CISSP"
+  },
+  {
+  title: "Certified Cloud Security Professional (CCSP)",
+  category: "Certifications",
+  description: "Focuses on cloud security architecture, design, operations, and service orchestration.",
+  url: "https://www.isc2.org/Certifications/CCSP"
+  },
+  {
+  title: "GIAC Security Essentials (GSEC)",
+  category: "Certifications",
+  description: "Designed for professionals looking to demonstrate they understand information security beyond simple terminology and concepts.",
+  url: "https://www.giac.org/certifications/security-essentials-gsec/"
   }
 ];
 
