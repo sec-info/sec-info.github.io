@@ -136,6 +136,18 @@ const resources = [
     "category": "CTFs",
     "description": "Hands-on labs and CTF challenges for beginners to advanced users, covering real-world cybersecurity skills.",
     "url": "https://tryhackme.com/"
+  },
+  {
+    "title": "Hacking: The Art of Exploitation",
+    "category": "Books",
+    "description": "A deep dive into hacking techniques and the mindset of a hacker, including C programming and memory manipulation.",
+    "url": "https://a.co/d/8RFnzyS"
+  },
+  {
+    "title": "The Hacker Playbook 3",
+    "category": "Books",
+    "description": "A hands-on guide with red teaming strategies, tools, and walkthroughs mimicking real-world scenarios.",
+    "url": "https://a.co/d/25rwQDf"
   }
 ];
 
