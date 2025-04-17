@@ -24,6 +24,12 @@ const resources = [
   "url": "https://a.co/d/eNtZ2yd"
   },
   {
+  "title": "The Art of Intrusion: The Real Stories Behind the Exploits of Hackers, Intruders and Deceivers",
+  "category": "Books",
+  "description": "Real-life stories of hackers and cybercriminals, revealing how they exploit systems and deceive people, written by legendary hacker Kevin Mitnick.",
+  "url": "https://a.co/d/aCIoThC"
+  },  
+  {
   title: "Tenable",
   category: "Tools",
   description: "Creators of Nessus and other solutions for vulnerability management and continuous network monitoring.",
