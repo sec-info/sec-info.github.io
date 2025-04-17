@@ -6,6 +6,18 @@ const resources = [
     url: "https://owasp.org/www-project-top-ten/"
   },
   {
+    title: "Security News from The Hacker News",
+    category: "News",
+    description: "Stay up-to-date with the latest cybersecurity news and updates.",
+    url: "https://thehackernews.com/"
+  },
+  {
+    title: "Security Weekly",
+    category: "News",
+    description: "A podcast and blog providing the latest in security news and analysis.",
+    url: "https://securityweekly.com/"
+  },
+  {
   title: "Burp Suite",
   category: "Tools",
   description: "An advanced web vulnerability scanner and proxy tool used by penetration testers and security researchers.",
@@ -64,18 +76,6 @@ const resources = [
     category: "Tools",
     description: "A popular open-source Linux distribution used for penetration testing and security auditing.",
     url: "https://www.kali.org/"
-  },
-  {
-    title: "Security News from The Hacker News",
-    category: "News",
-    description: "Stay up-to-date with the latest cybersecurity news and updates.",
-    url: "https://thehackernews.com/"
-  },
-  {
-    title: "Security Weekly",
-    category: "News",
-    description: "A podcast and blog providing the latest in security news and analysis.",
-    url: "https://securityweekly.com/"
   },
   {
   "title": "MITRE CVE Directory",
