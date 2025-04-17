@@ -58,6 +58,12 @@ const resources = [
     category: "News",
     description: "A podcast and blog providing the latest in security news and analysis.",
     url: "https://securityweekly.com/"
+  },
+  {
+  "title": "MITRE CVE Directory",
+  "category": "Vulnerability Databases",
+  "description": "The official source for all CVE records, maintained by MITRE. Includes identifiers, details, and references.",
+  "url": "https://cve.mitre.org/"
   }
 ];
 
