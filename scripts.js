@@ -70,6 +70,24 @@ const resources = [
   "category": "Vulnerability Databases",
   "description": "A U.S. government repository of standards-based vulnerability management data, including CVEs and severity scores.",
   "url": "https://nvd.nist.gov/"
+  },
+  {
+  "title": "Bugcrowd",
+  "category": "Bug Bounty Hunting",
+  "description": "A platform connecting security researchers with companies looking for vulnerability assessments. Great for getting started in bug bounty hunting.",
+  "url": "https://www.bugcrowd.com/"
+  },
+  {
+  "title": "HackerOne",
+  "category": "Bug Bounty Hunting",
+  "description": "A platform for ethical hackers to find and report security vulnerabilities for various companies. Offers great resources for learning and improving bug bounty skills.",
+  "url": "https://www.hackerone.com/"
+  },
+  {
+  "title": "Open Bug Bounty",
+  "category": "Bug Bounty Hunting",
+  "description": "A free and open platform for reporting vulnerabilities, with a focus on web applications. Allows security researchers to report vulnerabilities without prior authorization.",
+  "url": "https://www.openbugbounty.org/"
   }
 ];
 
