@@ -178,7 +178,37 @@ const resources = [
   category: "Certifications",
   description: "Designed for professionals looking to demonstrate they understand information security beyond simple terminology and concepts.",
   url: "https://www.giac.org/certifications/security-essentials-gsec/"
-  }
+  },
+  {
+  title: "ISO/IEC 27001",
+  category: "Frameworks",
+  description: "An international standard for managing information security, focusing on risk management and organizational controls.",
+  url: "https://www.iso.org/isoiec-27001-information-security.html"
+},
+{
+  title: "CIS Controls",
+  category: "Frameworks",
+  description: "A set of prioritized cybersecurity best practices developed by the Center for Internet Security to defend against common threats.",
+  url: "https://www.cisecurity.org/controls/cis-controls-list"
+},
+{
+  title: "MITRE ATT&CK Framework",
+  category: "Frameworks",
+  description: "A knowledge base of adversary tactics and techniques used as a foundation for threat modeling and detection.",
+  url: "https://attack.mitre.org/"
+},
+{
+  title: "COBIT (Control Objectives for Information and Related Technologies)",
+  category: "Frameworks",
+  description: "A governance and management framework for enterprise IT that helps align cybersecurity with business goals.",
+  url: "https://www.isaca.org/resources/cobit"
+},
+{
+  title: "Zero Trust Architecture",
+  category: "Frameworks",
+  description: "A security model that requires strict identity verification and least privilege access for every person or device.",
+  url: "https://www.cisa.gov/zero-trust-maturity-model"
+}
 ];
 
 const itemsPerPage = 10;
