@@ -6,6 +6,18 @@ const resources = [
     url: "https://owasp.org/www-project-top-ten/"
   },
   {
+  title: "Burp Suite",
+  category: "Tools",
+  description: "An advanced web vulnerability scanner and proxy tool used by penetration testers and security researchers.",
+  url: "https://portswigger.net/burp"
+  },
+  {
+  title: "Tenable",
+  category: "Tools",
+  description: "Creators of Nessus and other solutions for vulnerability management and continuous network monitoring.",
+  url: "https://www.tenable.com/products"
+  },  
+  {
     title: "NIST Cybersecurity Framework",
     category: "Frameworks",
     description: "A guide for improving the cybersecurity posture of an organization.",
