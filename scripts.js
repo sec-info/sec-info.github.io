@@ -103,10 +103,14 @@ const resources = [
   }
 ];
 
-// Populate the category dropdown
+const itemsPerPage = 10;
+let currentPage = 1;
+
+const categorySelect = document.getElementById('categoryFilter');
+
+// Populate categories
 const categories = new Set();
 resources.forEach(resource => categories.add(resource.category));
-const categorySelect = document.getElementById('categoryFilter');
 categories.forEach(category => {
   const option = document.createElement('option');
   option.value = category;
@@ -114,7 +118,6 @@ categories.forEach(category => {
   categorySelect.appendChild(option);
 });
 
-// Function to render resources based on search and category filter
 function renderResources() {
   const searchValue = document.getElementById('searchInput').value.toLowerCase();
   const categoryValue = categorySelect.value;
@@ -125,24 +128,51 @@ function renderResources() {
     return matchesSearch && matchesCategory;
   });
 
+  const totalPages = Math.ceil(filteredResources.length / itemsPerPage);
+  currentPage = Math.min(currentPage, totalPages || 1);
+  const start = (currentPage - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+
   const resourceList = document.getElementById('resourceList');
   resourceList.innerHTML = '';
 
-  filteredResources.forEach(resource => {
-    const resourceDiv = document.createElement('div');
-    resourceDiv.classList.add('resourceItem');
-    resourceDiv.innerHTML = `
+  filteredResources.slice(start, end).forEach(resource => {
+    const div = document.createElement('div');
+    div.className = 'resourceItem';
+    div.innerHTML = `
       <h3>${resource.title}</h3>
       <p>${resource.description}</p>
       <a href="${resource.url}" target="_blank">View Resource</a>
     `;
-    resourceList.appendChild(resourceDiv);
+    resourceList.appendChild(div);
   });
+
+  renderPagination(totalPages);
 }
 
-// Event listeners for search and filter
-document.getElementById('searchInput').addEventListener('input', renderResources);
-categorySelect.addEventListener('change', renderResources);
+function renderPagination(totalPages) {
+  const pagination = document.getElementById('pagination');
+  pagination.innerHTML = '';
 
-// Initial render
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+    btn.className = i === currentPage ? 'active' : '';
+    btn.addEventListener('click', () => {
+      currentPage = i;
+      renderResources();
+    });
+    pagination.appendChild(btn);
+  }
+}
+
+document.getElementById('searchInput').addEventListener('input', () => {
+  currentPage = 1;
+  renderResources();
+});
+categorySelect.addEventListener('change', () => {
+  currentPage = 1;
+  renderResources();
+});
+
 document.addEventListener('DOMContentLoaded', renderResources);
