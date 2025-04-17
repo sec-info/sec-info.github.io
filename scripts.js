@@ -55,9 +55,9 @@ const resources = [
   },
   {
     title: "SSL/TLS Best Practices",
-    category: "Tools",
+    category: "Cheat Sheets",
     description: "Best practices for configuring SSL and TLS for secure communications.",
-    url: "https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html"
+    url: "https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html"
   },
   {
     title: "Password Security Guidelines",
