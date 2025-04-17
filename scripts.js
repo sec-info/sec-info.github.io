@@ -21,7 +21,7 @@ const resources = [
     title: "Password Security Guidelines",
     category: "Cheat Sheets",
     description: "Recommendations for creating and managing secure passwords.",
-    url: "https://www.cyber.gov.au/acsc/view-all-content/publications/passwords"
+    url: "https://pages.nist.gov/800-63-3/sp800-63b.html"
   },
   {
     title: "Metasploit Framework",
