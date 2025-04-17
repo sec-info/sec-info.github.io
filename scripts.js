@@ -12,6 +12,18 @@ const resources = [
   url: "https://portswigger.net/burp"
   },
   {
+  "title": "The Web Application Hacker's Handbook",
+  "category": "Books",
+  "description": "Comprehensive guide to discovering and exploiting security flaws in web applications.",
+  "url": "https://a.co/d/3m8QdkV"
+  },
+  {
+  "title": "Practical Malware Analysis",
+  "category": "Books",
+  "description": "Hands-on guide to analyzing and disarming malware.",
+  "url": "https://a.co/d/eNtZ2yd"
+  },
+  {
   title: "Tenable",
   category: "Tools",
   description: "Creators of Nessus and other solutions for vulnerability management and continuous network monitoring.",
