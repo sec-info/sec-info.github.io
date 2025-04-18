@@ -208,6 +208,18 @@ const resources = [
   category: "Frameworks",
   description: "A security model that requires strict identity verification and least privilege access for every person or device.",
   url: "https://www.cisa.gov/zero-trust-maturity-model"
+},
+{
+  title: "AWS Certified Security – Specialty (SCS-C02)",
+  category: "Certifications",
+  description: "Official AWS certification for professionals who perform a security role with at least two years of hands-on experience securing AWS workloads.",
+  url: "https://aws.amazon.com/certification/certified-security-specialty/"
+},
+{
+  title: "Microsoft Certified: Azure Security Engineer Associate",
+  category: "Certifications",
+  description: "This certification is designed for security engineers who implement threat protection and manage identity and access in Microsoft Azure environments.",
+  url: "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/"
 }
 ];
 
