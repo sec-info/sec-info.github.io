@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Cybersecurity Resources</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>If you have feedback, suggestions, or want to get in touch, please fill out the form below.</p>
+
+    <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST" class="contact-form">
+      <!-- Hide bot field -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://sec-info.github.io/thank-you.html">
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cybersecurity Resources</p>
+  </footer>
+</body>
+</html>
