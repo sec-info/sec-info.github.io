@@ -5,19 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cybersecurity Resources</title>
   <link rel="stylesheet" href="styles.css"/>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3664358887358586"
-    crossorigin="anonymous"></script>
-  <meta name="google-adsense-account" content="ca-pub-3664358887358586" />
-  <div class="theme-toggle">
-  <label for="darkModeToggle">🌙 Dark Mode</label>
-  <input type="checkbox" id="darkModeToggle">
-  </div>
 </head>
 <body>
   <header>
     <h1>Cybersecurity Resources</h1>
-    <p>Your go-to hub for security tools, cheat sheets, and the latest news</p>
-    <div class="controls" style="text-align: center;">
+    <p>Curated tools, frameworks, cheat sheets, and news to empower cybersecurity professionals and learners.</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+    <div class="controls">
       <input type="text" id="searchInput" placeholder="Search resources..." />
       <select id="categoryFilter">
         <option value="all">All Categories</option>
@@ -25,20 +24,13 @@
     </div>
   </header>
 
-  <main id="resourceList">
-    <!-- Resource cards will be inserted here -->
-  </main>
-
-  <div class="pagination" id="pagination">
-    <!-- Pagination buttons will be inserted here -->
-  </div>
+  <main id="resourceList"></main>
+  <div id="pagination"></div>
 
   <footer>
-    <p>&copy; 2025 Cybersecurity Resources | All rights reserved.</p>
+    <p>&copy; 2025 Cybersecurity Resources. All rights reserved.</p>
   </footer>
 
   <script src="scripts.js"></script>
-  <button id="scrollTopBtn" title="Go to top">↑</button>
-
 </body>
 </html>
